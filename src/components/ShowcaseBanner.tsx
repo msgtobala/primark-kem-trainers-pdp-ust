@@ -16,7 +16,7 @@ const ShowcaseBanner: React.FC = () => {
             muted
             loop
             playsInline
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-bottom"
           >
             <source src={showcaseVideo} type="video/mp4" />
             {/* Fallback for browsers that don't support video */}
