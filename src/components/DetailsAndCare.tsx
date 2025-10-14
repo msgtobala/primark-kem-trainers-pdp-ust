@@ -74,7 +74,7 @@ const DetailsAndCare: React.FC = () => {
                       <img 
                         src={slide.image} 
                         alt={slide.title}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover object-bottom"
                       />
                     ) : (
                       <video

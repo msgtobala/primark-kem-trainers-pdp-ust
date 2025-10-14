@@ -141,7 +141,7 @@ const HeroSection: React.FC = () => {
             <div className="relative mb-4">
               <div
                 className="overflow-hidden rounded-lg bg-gray-50"
-                style={{ height: '600px' }} // Fixed height to match other columns
+                style={{ height: '632px' }} // Fixed height to match other columns
               >
                 {currentMedia.type === 'video' ? (
                   <video
